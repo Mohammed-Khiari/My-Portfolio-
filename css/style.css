@@ -25,7 +25,7 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     :root{
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -260,7 +260,7 @@ h3 { font-size: var(--fs-h3)}
 .intro__img {
     box-shadow: var(--bs);
 }
-@media (min-width: 600px) {
+@media (min-width: 715px) {
     .intro {
         display: grid;
         width: auto;
@@ -471,33 +471,5 @@ h3 { font-size: var(--fs-h3)}
 
 
 
-/* portfolio item styles*/
 
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-.portfolio-item-individual .description-conainer {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.Potfolio-item-1-img {
-    width: 100%;
-    display: block;
-    max-height: 400px;
-}
-
-.description {
-    font-size: 1.5rem;
-}
-
-.item1-intro{
-    grid-template-columns: 100px fit-content;
-}
-
-.item1-intro-img{
-    max-width: 200px;
-}

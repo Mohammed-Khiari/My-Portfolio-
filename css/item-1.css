@@ -1,0 +1,30 @@
+/* portfolio item1 styles*/
+
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.portfolio-item-individual .description-conainer {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Potfolio-item-1-img {
+    width: 100%;
+    display: block;
+    max-height: 400px;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+
+
+@media (min-width: 715px) { 
+.item1-intro-img{
+    max-width: 200px;
+}
+}
