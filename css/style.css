@@ -357,6 +357,18 @@ h3 { font-size: var(--fs-h3)}
     box-shadow: var(--bs);
     margin: 0 auto;
 }
+.skills-container {
+    display: flex;
+}
+
+#skills-ul1, #skills-ul2 {
+    margin-top: 35px;
+    width: fit-content;
+}
+
+#skills-label {
+    font-weight:bold;
+}
 @media (min-width: 600px) {
     .about-me {
         display: grid;
